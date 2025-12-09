@@ -3,7 +3,7 @@ import User from './userModel';
 import asyncHandler from 'express-async-handler';
 import jwt from 'jsonwebtoken';
 
-const router = express.Router(); // eslint-disable-line
+const router = express.Router();  
 
 // Get all users
 router.get('/', async (req, res) => {
